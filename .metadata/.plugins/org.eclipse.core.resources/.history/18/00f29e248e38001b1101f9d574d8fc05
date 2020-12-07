@@ -1,0 +1,39 @@
+package br.com.bankofoz.implementacao;
+
+import br.com.bankofoz.beans.Conta;
+import br.com.bankofoz.util.Magic;
+
+public class ImplementarConta {
+
+	public static void main(String[] args) {
+		char opcao = Magic.s("Digite C para conta corrente").charAt(0);
+		if (opcao=='C') {
+			Conta conta = new Conta();
+			conta.setSaldo(Magic.f(("saldo"));
+			//conta.
+			
+			
+			
+		}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

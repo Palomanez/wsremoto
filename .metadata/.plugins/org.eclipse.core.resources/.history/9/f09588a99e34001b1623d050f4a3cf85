@@ -1,0 +1,14 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Slide77Exercicio4 {
+
+	public static void main(String[] args) {
+		String nome = JOptionPane.showInputDialog("Qual o seu nome: ");
+		short idade = Short.parseShort(JOptionPane.showInputDialog("Qual a sua idade"));
+		
+
+	}
+
+}

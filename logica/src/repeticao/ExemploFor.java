@@ -1,0 +1,30 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemploFor {
+
+	public static void main(String[] args) {
+		/*for -> Próprio para quando não existe interação com o usuário final
+		Sintaxe: 
+		1º Definir o contador
+		2º Qual a condição para manter a repetição 
+		3º Qual a forma de contagem 
+
+*/
+		int tabuada = Integer.parseInt(JOptionPane.showInputDialog("Digite a tabuada"));
+		for (int cont=0; cont<11;cont++) {
+			System.out.println(tabuada + " x " + cont + " = " + (tabuada*cont));
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

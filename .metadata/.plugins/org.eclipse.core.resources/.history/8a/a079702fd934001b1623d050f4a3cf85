@@ -1,0 +1,35 @@
+package br.com.elevadordordorubinho.modelo;
+
+public class ElevadorModelo {
+	private String nome;
+	private short andarMaximo;
+	private short andarMinimo;
+	private byte capacidadePessoas;
+	private byte qtdeAtual;
+	private short andarAtual;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

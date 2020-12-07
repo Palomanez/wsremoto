@@ -1,0 +1,17 @@
+package decisao;
+
+public class ListaExercicio4 {
+
+	public static void main(String[] args) {
+		short num1 = Short.parseShort("Digite o primeiro número inteiro");
+		short num2 = Short.parseShort("Digite o segundo número inteiro");
+		short num3 = Short.parseShort("Digite o terceiro número inteiro");
+		
+		/*if (num1 > num2 && num1 > num3)
+			System.out.println();
+			*/	
+		
+
+	}
+
+}

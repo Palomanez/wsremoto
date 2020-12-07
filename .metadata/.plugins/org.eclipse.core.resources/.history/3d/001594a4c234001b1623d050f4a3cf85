@@ -1,0 +1,109 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Slide77Exercicio4 {
+
+	public static void main(String[] args) {
+		String nome ="";
+		int idade = 0;
+		int maioresDeIdade=0;
+		int qtdePessoas = 0;
+		int totalIdade=0;
+		String nomeExperiente="";
+		int idadeExperiente=0;
+		String nomeJovem="";
+		int idadeJovem=0;
+		do {
+			nome = JOptionPane.showInputDialog("Nome").toUpperCase();
+			idade = Integer.parseInt(JOptionPane.showInputDialog("Idade"));
+			if (idade>=18) {
+				maioresDeIdade++;
+			}
+			qtdePessoas++;
+			totalIdade+=idade;
+			if (idade>idadeExperiente) {
+				idadeExperiente=idade;
+				nomeExperiente=nome;
+
+			}
+
+			if (idade<idadeJovem || qtdePessoas==1) {
+				idadeJovem=idade;
+				nomeJovem=nome;
+			}
+		}while(JOptionPane.showConfirmDialog(null, "Continuar?", "?",JOptionPane.YES_NO_OPTION)==0);
+
+		System.out.println("Qtde de Pessoas Maiores de idade: " + maioresDeIdade);
+		System.out.println("Média de idades: " + (totalIdade/qtdePessoas));
+		System.out.printf("%s é o(a) mais experiente com %d anos.\n", nomeExperiente, idadeExperiente);
+		System.out.printf("%s é o(a) mais jovem com %d anos.\n", nomeExperiente, idadeJovem);
+
+		/*float media = totalIdade/qtdePessoas;
+		System.out.printf("Média: %.2f", media);
+		System.out.printf("%s você tem %d anos de idade", nome, idade);
+		 */
+
+
+
+
+
+
+
+
+
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*package repeticao;
+
+import javax.swing.JOptionPane; Feito por mim 
+
+public class Slide77Exercicio4 {
+
+	public static void main(String[] args) {
+		String nome1 = JOptionPane.showInputDialog("Qual o seu nome: ");
+		short idade1 = Short.parseShort(JOptionPane.showInputDialog("Qual a sua idade"));
+
+		String nome2 = JOptionPane.showInputDialog("Qual o seu nome: ");
+		short idade2 = Short.parseShort(JOptionPane.showInputDialog("Qual a sua idade"));
+
+		String nome3 = JOptionPane.showInputDialog("Qual o seu nome: ");
+		short idade3 = Short.parseShort(JOptionPane.showInputDialog("Qual a sua idade"));
+
+		double media = (idade1+idade2+idade3/3);
+
+		int cont = 1;
+		while (cont>0) {
+			cont = Integer.parseInt(JOptionPane.showInputDialog("Informe seu nome")); 
+		}
+
+
+
+
+
+
+
+
+
+		/*int tabuada = Integer.parseInt(JOptionPane.showInputDialog("Digite a tabuada"));
+		for (int cont=0; cont<11;cont++) {
+			System.out.println(tabuada + " x " + cont + " = " + (tabuada*cont));
+ */
+
+
+

@@ -1,0 +1,11 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Lista2Exercicio3 {
+
+	public static void main(String[] args) {
+		String operador = JOptionPane.showInputDialog("Escolha a operação aritmética"); 
+	}
+
+}

@@ -1,0 +1,22 @@
+package br.com.lojaabc.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.lojaabc.beans.Cliente;
+
+public class ImplementarCliente {
+
+	public static void main(String[] args) {
+		Cliente cliente = new Cliente();
+		cliente.setEmail(JOptionPane.showInputDialog("Email: "));
+		cliente.setNome(JOptionPane.showInputDialog("Nome").toUpperCase());
+		System.out.println("Email: " + cliente.getEmail());
+		System.out.println("Nome: " + cliente.getNome());
+		
+		
+		
+		
+
+	}
+
+}

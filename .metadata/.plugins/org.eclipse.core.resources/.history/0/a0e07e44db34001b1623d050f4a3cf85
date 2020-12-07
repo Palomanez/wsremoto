@@ -1,0 +1,48 @@
+package br.com.elevadordordorubinho.modelo;
+
+public class ElevadorModelo {
+	private String nome;
+	private short andarMaximo;
+	private short andarMinimo;
+	private byte capacidadePessoas;
+	private byte qtdeAtual;
+	private short andarAtual;
+	
+	public void definirValores() {
+		return nome;
+		return andarMaximo;
+		return andarMinimo;
+		return capacidadePessoas;
+				
+	}
+	
+	
+	
+	public String retornaNome() {
+		return nome;
+				
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,30 @@
+package br.com.elevadordorubinho;
+
+import br.com.elevadordordorubinho.modelo.ElevadorModelo;
+
+public class TesteElevador {
+	public static void main(String[] args) {
+		ElevadorModelo objeto = new ElevadorModelo();
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

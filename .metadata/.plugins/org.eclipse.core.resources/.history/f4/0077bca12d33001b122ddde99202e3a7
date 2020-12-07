@@ -1,0 +1,34 @@
+package variaveis;
+
+public class TiposDados {
+
+	public static void main(String[] args) {
+		String nome = "Juliano Pedrosa";
+		int idade = 32;
+		double altura = 1.82;
+		double peso = 108.0;
+		System.out.print(nome);
+		System.out.print(altura);;
+		System.out.print(peso);;
+		System.out.print(idade);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

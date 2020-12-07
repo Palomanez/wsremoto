@@ -1,0 +1,28 @@
+package repeticao;
+
+public class ExemploFor {
+
+	public static void main(String[] args) {
+		/*for -> Próprio para quando não existe interação com o usuário final
+		Sintaxe: 
+		1º Definir o contador
+		2º Qual a condição para manter a repetição 
+		3º Qual a forma de contagem 
+
+*/
+
+		for (int cont=0; cont<500;cont++) {
+			System.out.println(cont);
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

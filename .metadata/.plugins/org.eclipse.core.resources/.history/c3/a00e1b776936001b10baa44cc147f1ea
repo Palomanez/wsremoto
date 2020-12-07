@@ -1,0 +1,8 @@
+package br.com.bankofoz.beans;
+
+public class Corrente {
+	private float limite;
+	private float taxa;
+	
+
+}

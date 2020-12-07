@@ -1,0 +1,39 @@
+package br.com.universidadexyz.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.universidadexyz.beans.Turma;
+
+public class ImplementarTurma {
+
+	public static String s(String msg) {
+		return JOptionPane.showInputDialog(msg).toUpperCase();
+		
+	}
+	
+	public static int i (String msg) {
+		return Integer.parseInt(s(msg));
+	}
+	
+	public static void main(String[] args) {
+		Turma turma = new Turma(
+				Magic.i()
+				
+				)
+			
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
